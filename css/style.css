@@ -71,3 +71,17 @@ input[type="submit"] {
     color: white;
     font-size: 14px;
 }
+
+
+h3 {
+    color: blue;
+}
+
+#logo {
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    float: left;
+    height: 60px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+  }
